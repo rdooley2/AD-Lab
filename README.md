@@ -97,3 +97,19 @@ Edit the Client VM by adding the Internal Network Adapter: <br/><br />
 <br />
 <br />
 <br />
+Install Windows 10 Pro onto the Client VM: <br/><br />
+<img src="https://i.imgur.com/TBRKje2.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Add Client VM to our Domain: <br/><br />
+<img src="https://i.imgur.com/BMDoqBL.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Observe that the Client is now listed with our computers : <br/><br />
+<img src="https://i.imgur.com/Xdy5hUC.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+
