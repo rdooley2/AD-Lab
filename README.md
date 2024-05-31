@@ -1,9 +1,9 @@
-<h1>Oracle VM Virtual Box - Creating and Maintaining Windows Active Directory</h1>
+<h1>Oracle VM VirtualBox - Creating and Maintaining Windows Active Directory</h1>
 
  ### [YouTube Demonstration]()
 
 <h2>Description</h2>
-This project uses Oracle Virtual Box to create two Virtual Machine instances that will serve as a Domain Controller and a Client. The DC has two adapters, NAT (DC to the Internet) and Internal Network (DC to Client). This way the Client can access the internet through the DC. Using Server Manager I install and configure Active Directory Domain Services, DHCP Server, and Remote Access onto the DC. I also run a custom script in Powershell that will generate 1000+ users into the User Organizational Unit using a file with first and last names. Finally I boot up the Client VM and connect it to the domain. The Client only has one adapter, Internal Network (Client to DC). Now any of the 1000+ users can login to the machine and work. 
+This project uses Oracle VirtualBox to create two Virtual Machine instances that will serve as a Domain Controller and a Client. The DC has two adapters, NAT (DC to the Internet) and Internal Network (DC to Client). This way, the Client can access the Internet through the DC. Using Server Manager, I install and configure Active Directory Domain Services, DHCP Server, and Remote Access onto the DC. I also run a custom script in PowerShell that will generate 1000+ users into the User Organizational Unit using a file with first and last names. Next, I boot up the Client VM and connect it to the domain. The Client only has one adapter, Internal Network (Client to DC). Finally, I implemented a few generic groups and assigned users to them. Now any of the 1000+ users can log in to the machine and work. 
 
 
 
@@ -14,7 +14,7 @@ This project uses Oracle Virtual Box to create two Virtual Machine instances tha
 
 <h2>Environments Used </h2>
 
-- <b>Oracle Virtual Box</b> 
+- <b>Oracle VirtualBox</b> 
 - <b>Windows Server 2019</b>
 - <b>Windows 10</b>
 
@@ -37,12 +37,12 @@ Install Server 2019 onto the DC VM: <br/><br />
 <br />
 <br />
 <br />
-Rename our networks to make setup easier later: <br/><br />
+Rename the two networks to make setup easier later: <br/><br />
 <img src="https://i.imgur.com/Xd6Guia.png" height="80%" width="80%" alt="SIEM Steps"/>
 <br />
 <br />
 <br />
-Setup a IP Address within the Internal Network: <br/><br />
+Set up an IP Address within the Internal Network: <br/><br />
 <img src="https://i.imgur.com/Rl5iMCh.png" height="80%" width="80%" alt="SIEM Steps"/>
 <br />
 <br />
@@ -52,7 +52,7 @@ Install Active Directory Domain Services, DHCP Server, and Remote Access: <br/><
 <br />
 <br />
 <br />
-Add Routing Services when installing Remote Accesss: <br/><br />
+Add Routing Services when installing Remote Access: <br/><br />
 <img src="https://i.imgur.com/sXAKEyY.png" height="80%" width="80%" alt="SIEM Steps"/>
 <br />
 <br />
@@ -82,7 +82,7 @@ Configure DHCP by creating a new scope: <br/><br />
 <br />
 <br />
 <br />
-Create 1000+ users using a custom PowerShell script: <br/><br />
+Create 1000+ users by using a custom PowerShell script: <br/><br />
 <img src="https://i.imgur.com/lB7RmMz.png" height="80%" width="80%" alt="SIEM Steps"/>
 <br />
 <br />
@@ -102,14 +102,26 @@ Install Windows 10 Pro onto the Client VM: <br/><br />
 <br />
 <br />
 <br />
-Add Client VM to our Domain: <br/><br />
+Add the Client VM to our Domain: <br/><br />
 <img src="https://i.imgur.com/BMDoqBL.png" height="80%" width="80%" alt="SIEM Steps"/>
 <br />
 <br />
 <br />
-Observe that the Client is now listed with our computers : <br/><br />
+Observe that the Client is now listed with our computers: <br/><br />
 <img src="https://i.imgur.com/Xdy5hUC.png" height="80%" width="80%" alt="SIEM Steps"/>
 <br />
 <br />
 <br />
-
+Create a few generic groups: <br/><br />
+<img src="https://i.imgur.com/ThIyIc0.png" height="80%" width="80%" alt="SIEM Steps"/>
+<img src="https://i.imgur.com/3nEGvpm.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Add a few users to our new groups: <br/><br />
+<img src="https://i.imgur.com/IoO3RmE.png" height="80%" width="80%" alt="SIEM Steps"/>
+<img src="https://i.imgur.com/OFvXdLW.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+And we're done <br/><br />
