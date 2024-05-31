@@ -32,3 +32,39 @@ Edit the DC VM by adding two adapters: <br/><br />
 <br />
 <br />
 <br />
+Install Server 2019 onto the DC VM: <br/><br />
+<img src="https://i.imgur.com/uhAPFI1.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Rename our networks to make setup easier later: <br/><br />
+<img src="https://i.imgur.com/Xd6Guia.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Setup a IP Address within the Internal Network: <br/><br />
+<img src="https://i.imgur.com/Rl5iMCh.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Install Active Directory Domain Services, DHCP Server, and Remote Access: <br/><br />
+<img src="https://i.imgur.com/q7EhAgo.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Add Routing Services when installing Remote Accesss: <br/><br />
+<img src="https://i.imgur.com/sXAKEyY.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Configure AD DS: <br/><br />
+<img src="https://i.imgur.com/SoSomvy.png" height="80%" width="80%" alt="SIEM Steps"/>
+<img src="https://i.imgur.com/ON2RaL2.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Add a personal admin account: <br/><br />
+<img src="" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
