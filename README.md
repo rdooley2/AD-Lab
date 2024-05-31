@@ -64,7 +64,36 @@ Configure AD DS: <br/><br />
 <br />
 <br />
 Add a personal admin account: <br/><br />
-<img src="" height="80%" width="80%" alt="SIEM Steps"/>
+<img src="https://i.imgur.com/eQaHy6K.png" height="80%" width="80%" alt="SIEM Steps"/>
+<img src="https://i.imgur.com/3YkwgoV.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Configure Remote Access: <br/><br />
+<img src="https://i.imgur.com/KuVHlGb.png" height="80%" width="80%" alt="SIEM Steps"/>
+<img src="https://i.imgur.com/I5Y8HHE.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Configure DHCP by creating a new scope: <br/><br />
+<img src="https://i.imgur.com/fZAeEJv.png" height="80%" width="80%" alt="SIEM Steps"/>
+<img src="https://i.imgur.com/eCIyvY5.png" height="80%" width="80%" alt="SIEM Steps"/>
+<img src="https://i.imgur.com/xny1MNX.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Create 1000+ users using a custom PowerShell script: <br/><br />
+<img src="https://i.imgur.com/lB7RmMz.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Create the Client VM: <br/><br />
+<img src="https://i.imgur.com/N8Ft7pn.png" height="80%" width="80%" alt="SIEM Steps"/>
+<br />
+<br />
+<br />
+Edit the Client VM by adding the Internal Network Adapter: <br/><br />
+<img src="https://i.imgur.com/0YgMoyt.png" height="80%" width="80%" alt="SIEM Steps"/>
 <br />
 <br />
 <br />
