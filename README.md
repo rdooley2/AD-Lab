@@ -21,6 +21,11 @@ This project uses Oracle VirtualBox to create two Virtual Machine instances that
 <h2>Program walk-through:</h2>
 
 <p align="center">
+Project Diagram: <br/><br />
+<img src="https://i.imgur.com/LrJG1qq.png" height="80%" width="80%" alt="AD Steps"/>
+<br />
+<br />
+<br />
 Create the Domain Controller VM: <br/><br />
 <img src="https://i.imgur.com/f2k07RZ.png" height="80%" width="80%" alt="AD Steps"/>
 <br />
