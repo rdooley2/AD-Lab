@@ -19,7 +19,7 @@ This project uses Oracle VirtualBox to create two Virtual Machine instances that
 - <b>Windows Server 2019</b>
 - <b>Windows 10</b>
 
-<h2>Program walk-through:</h2>
+<h2>Project walk-through:</h2>
 
 <p align="center">
 Project Diagram: <br/><br />
