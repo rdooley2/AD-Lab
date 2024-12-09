@@ -1,7 +1,8 @@
 <h1>Oracle VM VirtualBox - Creating and Maintaining Windows Active Directory</h1>
 
  ### [YouTube Demonstration](https://youtu.be/IyVqMel7Tew)
- ### [Environment Downloads](https://drive.google.com/drive/folders/14TiPkVT5Lf1H0qginulv1dQVQCDPJ8__?usp=sharing)
+ ### [Server 2019 Download](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
+ ### [Windows 10 ISO Download](https://www.microsoft.com/en-us/software-download/windows10)
 
 <h2>Description</h2>
 This project uses Oracle VirtualBox to create two Virtual Machine instances that will serve as a Domain Controller and a Client. The DC has two adapters, NAT (DC to the Internet) and Internal Network (DC to Client). This way, the Client can access the Internet through the DC. Using Server Manager, I install and configure Active Directory Domain Services, DHCP Server, and Remote Access onto the DC. I also run a custom script in PowerShell that will generate 1000+ users into the User Organizational Unit using a file with first and last names. Next, I boot up the Client VM and connect it to the domain. The Client only has one adapter, Internal Network (Client to DC). Finally, I implemented a few generic groups and assigned users to them. Now any of the 1000+ users can log in to the machine and work. 
